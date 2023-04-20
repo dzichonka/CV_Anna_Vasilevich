@@ -1,0 +1,171 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    min-height: 1319px;
+    margin: 40px auto;
+    background: #FFFFFF;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+aside {
+    background-color: #1E2939;
+    width: 370px;
+}
+
+aside img {
+    margin-left: 15px;
+    margin-top: 15px;
+
+}
+
+aside .text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 50px;
+    margin-left: 40px;
+    color: #fff;
+}
+
+aside a {
+    margin-top: 50px;
+    margin-left: 10px;
+    color: rgba(255, 255, 255, .5);
+    cursor: pointer;
+}
+
+aside .phone a {
+    text-decoration: none;
+    outline: none;
+}
+
+aside .title {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+aside ul {
+    padding-left: 15px;
+}
+
+aside li::marker {
+    color: #FB6D3A;
+}
+
+main {
+    margin: 100px 88px;
+    background-color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+main .promo {
+    width: 400px;
+}
+
+main .occupation {
+    font-weight: 700;
+}
+
+main .name {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+main .github a {
+    margin-top: 40px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #595959;
+    padding: 10px;
+}
+
+main .github a:hover {
+    text-decoration: underline;
+}
+
+main .projects {
+    margin-top: 40px;
+}
+
+main .project_list {
+    padding: 0;
+    list-style-position: inside;
+}
+
+main .project_list li::marker {
+    font-weight: 700;
+    color: #000;
+}
+
+main .project_list a {
+    margin-top: 40px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #595959;
+    padding: 10px;
+}
+
+main .project_list a:hover {
+    text-decoration: underline;
+}
+
+main .experience {
+    margin-top: 50px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+main .position_descr {
+    padding: 19px;
+    margin-top: -5px;
+}
+
+main .education {
+    margin-top: 40px;
+}
+
+main .title {
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 27px;
+}
+
+main .position {
+    margin-top: 20px;
+}
+
+main .position_title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+main .position_title .red {
+    color: #FB6D3A;
+}
+
+main .position_subtitle {
+    font-weight: 700;
+    line-height: 17px;
+}
+
+main .position_period {
+    font-size: 12px;
+    margin-top: 11px;
+    color: #A8A8A8;
+    line-height: 15px;
+}
+
+main .black {
+    color: black;
+    font-weight: bold;
+}
