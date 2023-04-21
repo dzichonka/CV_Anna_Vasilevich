@@ -18,16 +18,15 @@ aside {
 }
 
 aside img {
-    margin-left: 15px;
-    margin-top: 15px;
+    margin: 15px;
 
 }
 
 aside .text {
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 30px;
     margin-top: 50px;
     margin-left: 40px;
     color: #fff;
@@ -59,18 +58,16 @@ aside li::marker {
 }
 
 main {
-    margin: 100px 88px;
+    font-size: 18px;
+    line-height: 26px;
+    margin: 50px;
+
     background-color: #fff;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
     color: #595959;
 }
 
-main .promo {
-    width: 400px;
-}
 
 main .occupation {
     font-weight: 700;
@@ -98,16 +95,34 @@ main .projects {
 }
 
 main .project_list {
-    padding: 0;
+    margin: 20px;
+    line-height: 35px;
+    width: 500px;
+    list-style-position: inside;
+}
+
+main .project_list ol {
+    margin: 50px auto;
+    width: 500px;
+    list-style-position: inside;
+}
+
+main .project_list li {
+
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     list-style-position: inside;
 }
 
 main .project_list li::marker {
-    font-weight: 700;
-    color: #000;
+    color: #FB6D3A;
 }
 
 main .project_list a {
+    font-weight: 700;
     margin-top: 40px;
     text-decoration: none;
     cursor: pointer;
